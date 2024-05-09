@@ -1,0 +1,1378 @@
+[
+    {
+        "operationId": "BZdo2U93CEG3raMB2fcnMQ",
+        "operationType": "commit",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "m7MThxevxEmJSrK+Fqk65w",
+        "operationType": "delete",
+        "parameters": {
+            "Objects": [
+                "[Home.profile_image]"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "vl/fL56+BUKA9e18QJ1eIg",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "vzxl1wG/zUW/DfMBUFfgJA",
+        "operationType": "commit",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "1f9GD8KXvUC1BbZ0y6zeFA",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Administration.Account_New",
+            "WidgetName": "Administration.Account_New.comboBox1",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "System.UserRole/System.UserRole.Name"
+            ],
+            "XPath": "//System.UserRole[System.grantableRoles[reversed()]/System.UserRole/System.UserRoles = '[%CurrentUser%]']"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "wRnB5iIjY1qJzsgKhGSGNg",
+        "operationType": "callMicroflow",
+        "parameters": {
+            "AccountPasswordData": [
+                "Administration.AccountPasswordData"
+            ]
+        },
+        "constants": {
+            "MicroflowName": "Administration.ChangePassword"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ]
+        ]
+    },
+    {
+        "operationId": "AfFJVrbrx06460rRsmPnpQ",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Administration.ActiveSessions",
+            "WidgetName": "Administration.ActiveSessions.dataGrid21",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "System.Session/System.Session_User/System.User/System.User.Name",
+                "System.Session/System.Session.LastActive"
+            ],
+            "XPath": "//System.Session"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "4bBf837Edky8Yd0MQW6K8w",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "mD7imavMTU+OyrUiNZuLGg",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Administration.Account_Edit",
+            "WidgetName": "Administration.Account_Edit.comboBox2",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "System.UserRole/System.UserRole.Name"
+            ],
+            "XPath": "//System.UserRole[System.grantableRoles[reversed()]/System.UserRole/System.UserRoles = '[%CurrentUser%]']"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "j1N/DYjoUU6Ebe4BS4r0NA",
+        "operationType": "create",
+        "parameters": {},
+        "constants": {
+            "ObjectType": "Home.project_members"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "7gOGTiEtA0SStUVdBshKAw",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "qNRTRXFIf0iEN6Cpp+UgeQ",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Home.profile_image_Overview_2",
+            "WidgetName": "Home.profile_image_Overview_2.dataGrid2_1",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "Home.profile_image/System.FileDocument.Name",
+                "Home.profile_image/System.FileDocument.Size"
+            ],
+            "XPath": "//Home.profile_image"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "oY8kANdS40SqFiWwprEdrg",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Administration.ScheduledEvents",
+            "WidgetName": "Administration.ScheduledEvents.dataGrid21",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "System.ScheduledEventInformation/System.ScheduledEventInformation.Name",
+                "System.ScheduledEventInformation/System.ScheduledEventInformation.Description",
+                "System.ScheduledEventInformation/System.ScheduledEventInformation.StartTime",
+                "System.ScheduledEventInformation/System.ScheduledEventInformation.Status",
+                "System.ScheduledEventInformation/System.ScheduledEventInformation.EndTime"
+            ],
+            "XPath": "//System.ScheduledEventInformation"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "TyfS5PVR1k+1NPBsthUkfQ",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "cms6amvNpUu7LS12zrVe+Q",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Home.Page",
+            "WidgetName": "Home.Page.templateGrid1",
+            "UsedAssociations": [
+                "Home.Employee/Home.Employee_profile_image/Home.profile_image"
+            ],
+            "UsedAttributes": [],
+            "EntityPath": "Home.Employee"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "NOn0XMSAnESUIpr/URwpFA",
+        "operationType": "create",
+        "parameters": {},
+        "constants": {
+            "ObjectType": "Home.profile_image"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "ZgYltvVb9VKEf3DUvzMCPw",
+        "operationType": "callMicroflow",
+        "parameters": {
+            "Account": [
+                "Administration.Account"
+            ]
+        },
+        "constants": {
+            "MicroflowName": "Administration.ShowMyPasswordForm"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "lBHQFJ8es0GFaTg25c2flQ",
+        "operationType": "create",
+        "parameters": {},
+        "constants": {
+            "ObjectType": "Home.Employee"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "L596wRrjSUOpcF5z7rzVWw",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "dvLe86TGR0usUG3OiVA0iQ",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Home.project_members_Overview",
+            "WidgetName": "Home.project_members_Overview.dataGrid2_1",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "Home.project_members/Home.project_members.member_id"
+            ],
+            "XPath": "//Home.project_members"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "+LHdeTSSCkWN2CXTl5LfVg",
+        "operationType": "delete",
+        "parameters": {
+            "Objects": [
+                "[Home.Project]"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "+vYWKw5drUmdvpxXIp2qxg",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Atlas_Core.Atlas_TopBar",
+            "WidgetName": "Atlas_Core.LanguageSelectorWidget.languageSelector1",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "System.Language/System.Language.Description"
+            ],
+            "XPath": "//System.Language"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "0xZ0bAAIlVynsdnKA3XiAw",
+        "operationType": "callMicroflow",
+        "parameters": {
+            "AccountPasswordData": [
+                "Administration.AccountPasswordData"
+            ]
+        },
+        "constants": {
+            "MicroflowName": "Administration.SaveNewAccount"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ]
+        ]
+    },
+    {
+        "operationId": "Z8zAKhzwOkaPSLSK8tWEqg",
+        "operationType": "delete",
+        "parameters": {
+            "Objects": [
+                "[Home.project_members]"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "Y5/cIg8zXki8dc6KvbRWYw",
+        "operationType": "retrieve",
+        "parameters": {
+            "CurrentObject": [
+                "Administration.Account"
+            ]
+        },
+        "constants": {
+            "PageName": "Administration.Account_Overview",
+            "WidgetName": "Administration.Account_Overview.listView1",
+            "UsedAssociations": [],
+            "UsedAttributes": [],
+            "EntityPath": "System.UserRoles/System.UserRole"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "2e5tmmE4f06bDUV/JDwgzQ",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "cqaMa9uO+ku9jgyUATApXw",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Home.profile_image_NewEdit",
+            "WidgetName": "Home.profile_image_NewEdit.comboBox1",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "Home.Employee/Home.Employee.Name"
+            ],
+            "XPath": "//Home.Employee"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "dRjIU2lNSkSa4VUQdlZJhA",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "6633PhMTdkWcPDT2KgXrzg",
+        "operationType": "commit",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "k9oDOU/oqUe510f7mW5LUQ",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Home.Project_Overview_2",
+            "WidgetName": "Home.Project_Overview_2.dataGrid2_1",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "Home.Project/Home.Project.project_id",
+                "Home.Project/Home.Project.project_name"
+            ],
+            "XPath": "//Home.Project"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "/Xt7KtsfyEeP5EuY66VQsg",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "2I9uS7rjiU2gb3uLor1Ivg",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Administration.Account_Overview",
+            "WidgetName": "Administration.Account_Overview.dataGrid21",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "System.UserRole/System.UserRole.Name"
+            ],
+            "XPath": "//System.UserRole"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "V39asAbtP1SwmBhG4Ht2HQ",
+        "operationType": "callMicroflow",
+        "parameters": {},
+        "constants": {
+            "MicroflowName": "Administration.NewAccount"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ]
+        ]
+    },
+    {
+        "operationId": "3BSmSK8L8lCy/Ri8kqHWAg",
+        "operationType": "callMicroflow",
+        "parameters": {
+            "AccountPasswordData": [
+                "Administration.AccountPasswordData"
+            ]
+        },
+        "constants": {
+            "MicroflowName": "Administration.ChangeMyPassword"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "KQY+VaC5yUGa5XR8uHhFUg",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "Imjnf7bpyVyPEtnH7PiIsQ",
+        "operationType": "callMicroflow",
+        "parameters": {},
+        "constants": {
+            "MicroflowName": "Administration.NewWebServiceAccount"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ]
+        ]
+    },
+    {
+        "operationId": "aLrPqjYmUEiFBd5UdRlZtA",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Home.Projects",
+            "WidgetName": "Home.Projects.listView3",
+            "UsedAssociations": [],
+            "UsedAttributes": [],
+            "XPath": "//Home.Project"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "QJZLAtY7tEKInV5XJ8iIrQ",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Home.project_members_NewEdit",
+            "WidgetName": "Home.project_members_NewEdit.comboBox2",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "Home.Project/Home.Project.project_name"
+            ],
+            "XPath": "//Home.Project"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "uBnKQqyvXk21dndPr36p3g",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "krhwvL+dLUC4UYOJThDK2g",
+        "operationType": "commit",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "Qd9VmTnULkqygHtl6j40Ow",
+        "operationType": "delete",
+        "parameters": {
+            "Objects": [
+                "[Home.Employee]"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "kOzcUL3anEy1IuxMkvSW8A",
+        "operationType": "retrieve",
+        "parameters": {
+            "CurrentObject": [
+                "Home.Project"
+            ]
+        },
+        "constants": {
+            "PageName": "Home.Projects",
+            "WidgetName": "Home.Projects.listView1",
+            "UsedAssociations": [
+                "Home.Employee/Home.Employee_profile_image/Home.profile_image"
+            ],
+            "UsedAttributes": [],
+            "XPath": "//Home.Employee[Home.project_members_Employee/Home.project_members/Home.project_members_Project='[%CurrentObject%]']"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "XE+N9RrxtUqbPRRtpwMzLQ",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "cXhXratA20+UOdL10z1glQ",
+        "operationType": "create",
+        "parameters": {},
+        "constants": {
+            "ObjectType": "Home.Employee"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "bckhWJyoFEqD46Ys0KjtVg",
+        "operationType": "delete",
+        "parameters": {
+            "Objects": [
+                "[Administration.Account]"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ]
+        ]
+    },
+    {
+        "operationId": "Tw+pgu0EkUqPhts3q7iAPA",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "Qy3wUdACS06RXNzxlHsSGw",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Administration.Account_Edit",
+            "WidgetName": "Administration.Account_Edit.comboBox3",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "System.Language/System.Language.Description"
+            ],
+            "XPath": "//System.Language"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "b9UuDwzWTkShBudGWAW/8w",
+        "operationType": "retrieve",
+        "parameters": {
+            "CurrentObject": [
+                "Home.Project"
+            ]
+        },
+        "constants": {
+            "PageName": "Home.Projects",
+            "WidgetName": "Home.Projects.dataView6",
+            "UsedAssociations": [],
+            "UsedAttributes": [],
+            "EntityPath": "Home.Project"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "V1+aAxIlOkK84obMZcGygA",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Home.Employee_Overview_2",
+            "WidgetName": "Home.Employee_Overview_2.dataGrid2_1",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "Home.Employee/Home.Employee.Name",
+                "Home.Employee/Home.Employee.Age",
+                "Home.Employee/Home.Employee.Email",
+                "Home.Employee/Home.Employee.Designation",
+                "Home.Employee/Home.Employee.Gender"
+            ],
+            "XPath": "//Home.Employee"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "rmpRAovBKUqNkVGHoZkigg",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Administration.Account_New",
+            "WidgetName": "Administration.Account_New.comboBox3",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "System.Language/System.Language.Description"
+            ],
+            "XPath": "//System.Language"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "dRraylW4aUG6VBbTLvYlmA",
+        "operationType": "commit",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "HRwD/IA08k2LlT/yfaJjRg",
+        "operationType": "delete",
+        "parameters": {
+            "Objects": [
+                "[Home.Employee]"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "0QyuQ5Qes06khB9erpjAkw",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "yLNomp7Q80GBC76iumVcqw",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "6rk9Yn+oQE688TPnAJcuGg",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Administration.Account_Edit",
+            "WidgetName": "Administration.Account_Edit.comboBox4",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "System.TimeZone/System.TimeZone.Description"
+            ],
+            "XPath": "//System.TimeZone"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "Y26BqSIQ+UyCmu+LjYHT7A",
+        "operationType": "retrieve",
+        "parameters": {
+            "CurrentObject": [
+                "Administration.AccountPasswordData"
+            ]
+        },
+        "constants": {
+            "PageName": "Administration.Account_New",
+            "WidgetName": "Administration.Account_New.dataView1",
+            "UsedAssociations": [
+                "Administration.Account/System.UserRoles/System.UserRole",
+                "Administration.Account/System.User_Language/System.Language",
+                "Administration.Account/System.User_TimeZone/System.TimeZone"
+            ],
+            "UsedAttributes": [],
+            "EntityPath": "Administration.AccountPasswordData_Account/Administration.Account"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "AmKhGqrIeky2EIEUZwAaQw",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "L2fcdwpurEax7DJwyI7Z4A",
+        "operationType": "create",
+        "parameters": {},
+        "constants": {
+            "ObjectType": "Home.Project"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "56eliWtuKE+gr/JsOO+DhA",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "ykPw03298kGTLjL6tRrp2g",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Atlas_Core.Atlas_Default",
+            "WidgetName": "Atlas_Core.LanguageSelectorWidget.languageSelector1",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "System.Language/System.Language.Description"
+            ],
+            "XPath": "//System.Language"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "hlBWkFui9ku2sZRJEzFgjw",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Home.project_members_NewEdit",
+            "WidgetName": "Home.project_members_NewEdit.comboBox1",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "Home.Employee/Home.Employee.Name"
+            ],
+            "XPath": "//Home.Employee"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "1sodbjA/Vk2Fwfl9B7ADvw",
+        "operationType": "commit",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "60kySZt0z1Snas397avB7A",
+        "operationType": "callMicroflow",
+        "parameters": {
+            "Account": [
+                "Administration.Account"
+            ]
+        },
+        "constants": {
+            "MicroflowName": "Administration.ShowPasswordForm"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ]
+        ]
+    },
+    {
+        "operationId": "uMRUfvzickOsstqw9bbTWg",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "Fw04o+WG00i3BG3S5YSOzw",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Administration.MyAccount",
+            "WidgetName": "Administration.MyAccount.comboBox3",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "System.Language/System.Language.Description"
+            ],
+            "XPath": "//System.Language"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "pi+sSV7fdkKHNf/A4mE5Sg",
+        "operationType": "delete",
+        "parameters": {
+            "Objects": [
+                "[System.Session]"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ]
+        ]
+    },
+    {
+        "operationId": "ZTEJuFBvrUeO8099+02Ydw",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Administration.RuntimeInstances",
+            "WidgetName": "Administration.RuntimeInstances.dataGrid21",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "System.XASInstance/System.XASInstance.XASId",
+                "System.XASInstance/System.XASInstance.createdDate",
+                "System.XASInstance/System.XASInstance.AllowedNumberOfConcurrentUsers",
+                "System.XASInstance/System.XASInstance.PartnerName",
+                "System.XASInstance/System.XASInstance.CustomerName"
+            ],
+            "XPath": "//System.XASInstance"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "9+7Ggq6KNkWCJMr1mS4Hyw",
+        "operationType": "rollback",
+        "parameters": {
+            "Objects": [
+                "AnyObjectList"
+            ]
+        },
+        "constants": {},
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "14wQJDcpL0mTCLFUABm/yQ",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Administration.Account_Overview",
+            "WidgetName": "Administration.Account_Overview.dataGrid21",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "Administration.Account/Administration.Account.FullName",
+                "Administration.Account/System.User.Name",
+                "Administration.Account/System.UserRoles/System.UserRole/System.UserRole.Name",
+                "Administration.Account/System.User.LastLogin",
+                "Administration.Account/System.User.Active",
+                "Administration.Account/System.User.WebServiceUser",
+                "Administration.Account/Administration.Account.IsLocalUser"
+            ],
+            "XPath": "//Administration.Account[(System.UserRoles/System.UserRole/System.grantableRoles[reversed()]/System.UserRole/System.UserRoles = '[%CurrentUser%]' or not(System.UserRoles/System.UserRole)) and Name != empty]"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    },
+    {
+        "operationId": "1jUXANhm3EOgxOxTl/ZC1A",
+        "operationType": "retrieve",
+        "parameters": {},
+        "constants": {
+            "PageName": "Administration.Account_New",
+            "WidgetName": "Administration.Account_New.comboBox2",
+            "UsedAssociations": [],
+            "UsedAttributes": [
+                "System.TimeZone/System.TimeZone.Description"
+            ],
+            "XPath": "//System.TimeZone"
+        },
+        "allowedUserRoleSets": [
+            [
+                "Administrator"
+            ],
+            [
+                "User"
+            ]
+        ]
+    }
+]
