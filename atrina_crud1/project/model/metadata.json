@@ -23,7 +23,20 @@
       ]
     }
   },
-  "Constants": [],
+  "Constants": [
+    {
+      "Name": "ExternalDatabaseConnector.ExternalDatabaseConnectorVersion",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "2.0.1"
+    },
+    {
+      "Name": "ExternalDatabaseConnector.LogNode",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "ExternalDatabaseConnector"
+    }
+  ],
   "ScheduledEvents": [],
   "Languages": [
     "en_US"
