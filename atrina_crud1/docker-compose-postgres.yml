@@ -12,8 +12,8 @@ services:
             timeout: 3s
         environment:
             ADMIN_PASSWORD: SunilBhave@37
-            DATABASE_ENDPOINT: postgres://mendix:mendix@db:5432/mendix
-            # DATABASE_ENDPOINT: postgres://postgres:1234@db:5432/atrina_db
+            # DATABASE_ENDPOINT: postgres://mendix:mendix@db:5432/mendix
+            DATABASE_ENDPOINT: postgres://postgres:1234@db2:5432/atrina_db
  
             # - MXRUNTIME_License_SubscriptionSecret=<subscriptionsecret>
             # - MXRUNTIME_License_UseLicenseServer=true
@@ -100,6 +100,20 @@ services:
             # - POSTGRES_USER=postgres
             # - POSTGRES_PASSWORD=1234
             # - POSTGRES_DB=atrina_db
+    db2:
+        image: postgres:15
+        healthcheck:
+            test: ["CMD", "pg_isready", "-U", "mendix"]
+            interval: 5s
+            retries: 10
+            start_period: 10s
+            timeout: 2s
+        ports:
+            - 5432:5432
+        environment:
+            - POSTGRES_USER=postgres
+            - POSTGRES_PASSWORD=1234
+            - POSTGRES_DB=atrina_db
 
 
     pgadmin:
@@ -111,6 +125,8 @@ services:
         ports:
             - 5050:80
         links:
-            - db   
+            - db
+            - db2
         depends_on:
-            - db 
+            - db
+            - db2
